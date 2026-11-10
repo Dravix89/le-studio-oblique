@@ -110,10 +110,10 @@ le-studio-oblique/
 
 ## Liens
 
-| Ressource | Lien                                                          |
-| --------- | ------------------------------------------------------------- |
-| Site      | [VOTRE-URL.vercel.app](https://le-studio-oblique.vercel.app/) |
-| Créateur  | [David R](https://github.com/Dravix89)                        |
+| Ressource | Lien                                                       |
+| --------- | ---------------------------------------------------------- |
+| Site      | [Le Studio Oblique](https://le-studio-oblique.vercel.app/) |
+| Créateur  | [David Roussety](https://github.com/Dravix89)              |
 
 ## Auteur
 
