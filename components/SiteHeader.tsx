@@ -14,7 +14,7 @@ export default function SiteHeader({
     <header className="site-header">
       <Link className="brand" href="/" aria-label="Le Studio Oblique, accueil">
         <Image
-          src="/logo3.png"
+          src="/logo.png"
           alt="Le Studio Oblique"
           width={200}
           height={80}
