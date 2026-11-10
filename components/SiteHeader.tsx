@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function SiteHeader({
   active,
@@ -12,14 +13,14 @@ export default function SiteHeader({
   return (
     <header className="site-header">
       <Link className="brand" href="/" aria-label="Le Studio Oblique, accueil">
-        <span className="brand-mark">/</span>
-        <span>
-          LE
-          <br />
-          STUDIO
-          <br />
-          OBLIQUE
-        </span>
+        <Image
+          src="/logo3.png"
+          alt="Le Studio Oblique"
+          width={200}
+          height={80}
+          priority
+          className="brand-logo"
+        />
       </Link>
       <button
         className="menu-toggle"

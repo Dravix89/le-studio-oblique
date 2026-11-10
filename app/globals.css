@@ -48,16 +48,24 @@ select {
 .brand {
   display: flex;
   align-items: center;
-  gap: 9px;
-  font-size: 20px;
-  line-height: 1.08;
-  font-weight: 700;
-  letter-spacing: 0.08em;
 }
-.brand-mark {
-  font: 700 38px var(--display);
-  transform: rotate(18deg);
-  display: inline-block;
+.brand-logo {
+  height: 96px;
+  width: auto;
+  display: block;
+  margin-left: -28px;
+}
+@media (max-width: 1024px) {
+  .brand-logo {
+    height: 80px;
+    margin-left: -22px;
+  }
+}
+@media (max-width: 600px) {
+  .brand-logo {
+    height: 60px;
+    margin-left: -16px;
+  }
 }
 .nav {
   display: flex;
@@ -383,15 +391,19 @@ footer {
   letter-spacing: 0.12em;
   color: white;
 }
-footer .footer-brand {
-  font: 800 14px var(--display);
-  letter-spacing: -0.04em;
-  color: white;
+.footer-brand {
+  display: flex;
+  align-items: center;
 }
-footer .footer-brand span {
-  font-size: 11px;
-  vertical-align: top;
-  margin-left: 3px;
+.footer-logo {
+  height: 56px;
+  width: auto;
+  display: block;
+}
+@media (max-width: 600px) {
+  .footer-logo {
+    height: 48px;
+  }
 }
 .studio-hero {
   border-bottom: 2rem solid var(--bold-line);
